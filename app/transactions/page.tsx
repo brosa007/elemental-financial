@@ -1,7 +1,10 @@
+import NavBar from "../_components/navbar";
+
 export default function TransactionPage() {
   return (
     <>
-      <h1>Olá, guys</h1>
+      <NavBar />
+      <h1>Transações</h1>
     </>
   );
 }
